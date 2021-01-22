@@ -4,12 +4,12 @@ var submitButton = document.getElementById("submitButton");
 var lingoWords = words[Math.floor(Math.random()*words.length)];
 var wordInputField = document.getElementById("word");
 
-// var firstLetterNode = document.createElement("P");
-// var firstLetterText = document.createTextNode(lingoWords[0]);
-// firstLetterNode.appendChild(firstLetterText);
+var firstLetterNode = document.createElement("P");
+var firstLetterText = document.createTextNode(lingoWords[0]);
+firstLetterNode.appendChild(firstLetterText);
 
-// var blokFirstLetter = document.getElementById("blok-0-0");
-// blokFirstLetter.appendChild(firstLetterText);
+var blokFirstLetter = document.getElementById("blok-0-0");
+blokFirstLetter.appendChild(firstLetterText);
 
 // Ik maak een var turn aan zodat ik bij iedere keer als er een woord word ingevoerd hij +1
 var turn = 0;

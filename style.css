@@ -44,3 +44,7 @@ label{
 	height: 50px;
 	margin-left: 650px;
 }
+
+#blok-0-0 > p {
+	display: none; 
+}
